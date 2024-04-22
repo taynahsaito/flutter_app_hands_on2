@@ -22,7 +22,7 @@ class _SecondPageState extends State<SegundaPagina> {
           title: Text(
             "List Page",
             style: GoogleFonts.poppins(
-              fontSize: 20,
+              fontSize: 23,
               fontWeight: FontWeight.w600,
               color: Colors.white,
             ),
@@ -78,7 +78,7 @@ class _SecondPageState extends State<SegundaPagina> {
                       child: const Text(
                         "Adicionar Item",
                         style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.w700),
+                            fontSize: 18, fontWeight: FontWeight.w700),
                       ),
                     ),
                   ),
@@ -101,7 +101,7 @@ class _SecondPageState extends State<SegundaPagina> {
                     child: const Text(
                       "Voltar para Home",
                       style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
                     ),
                   ),
                 ],

@@ -21,7 +21,7 @@ class ItemComponent extends StatelessWidget {
             Text(
               'Item ${contador.toString()}',
               style: GoogleFonts.poppins(
-                  fontSize: 20, fontWeight: FontWeight.w500),
+                  fontSize: 18, fontWeight: FontWeight.w500),
             ),
             const Icon(
               Icons.delete,
